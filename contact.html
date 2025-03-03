@@ -1,0 +1,77 @@
+<html>
+    <head>
+       <title>Contact Me </title>
+       <link rel="stylesheet" href="stylecontact.css" />
+    </head>
+    <body>
+        <div class ="container">
+        <!-- NAVIGATION BAR -->
+        <div class="container-navbar">
+            <ul class="ul-navbar">
+               <li class="li-navbar">
+                <a href="index.html" class="a-navbar">HOME</a>
+               </li>
+               <li class="li-navbar">
+                <a href="about.html" class="a-navbar">ABOUT ME</a>
+               </li>
+               <li class="li-navbar">
+                <a href="contact.html" class="a-navbar">CONTACT ME</a>
+               </li>
+            </ul>   
+        </div>
+        <!-- NAVIGATION BAR SELESAI -->
+        
+        <!-- CONTENT 1 -->
+        <!-- FORMULIR KONTAK -->
+        <div class="contact-form">
+            <form>
+                <fieldset>
+                    <legend>Hubungi Saya</legend>
+
+                    <label for="nama">Nama Lengkap:</label>
+                    <input type="text" name="nama" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" required>
+
+                    <label for="tanggal">Tanggal:</label>
+                    <input type="date" name="tanggal" required>
+
+                    <label for="pesan">Pesan:</label>
+                    <textarea id="pesan" name="pesan" rows="4"></textarea>
+
+                    <label for="kategori">Kategori Pesan:</label>
+                    <select name="kategori">
+                        <option value="umum" selected>Umum</option>
+                        <option value="kerjasama">Kerjasama</option>
+                    </select>
+
+                    <p>Jenis Kelamin:</p>
+                    <div class="radio-group">
+                        <input type="radio" name="gender" value="Pria">
+                        <label for="pria">Pria</label>
+                    </div>
+                    <div class="radio-group">
+                        <input type="radio" name="gender" value="Wanita">
+                        <label for="wanita">Wanita</label>
+                    </div>
+
+                    <div class="checkbox-group">
+                        <input type="checkbox" name="setuju" required>
+                        <label for="setuju">Saya menyetujui kebijakan privasi</label>
+                    </div>
+
+                    <button type="submit">Kirim</button>
+                </fieldset>
+            </form>
+        </div>
+        <!-- FORMULIR KONTAK SELESAI -->
+
+        <!-- FOOTER -->
+        <div class="container-footer">
+            <p>&copy; 2025 Maria Shelsavionda Putri Dianthi. All Rights Reserved.</p>
+        </div>
+        <!-- FOOTER END -->
+     </div> 
+    </body>
+</html>

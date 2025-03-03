@@ -1,0 +1,179 @@
+*, html {
+    margin: 0; 
+    padding: 0;
+    font-family: 'Arial';
+}
+
+body {
+    background-color: #ffedd6;
+}
+
+/* Container Utama */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar */
+.container-navbar {
+    background-color: #ff6b6b;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 12px 12px 0 0;
+}
+
+.ul-navbar {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+}
+
+.li-navbar {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background 0.3s, border-radius 0.3s;
+}
+
+.li-navbar:hover {
+    background-color: #ffa6a6;
+    border-radius: 8px;
+}
+
+.a-navbar {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Navbar Contact Me */
+.navbar-contact {
+    background-color: #ff7b7b;
+    padding: 15px 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.navbar-contact a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 20px;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-contact a:hover {
+    background-color: #ff5252;
+    transform: scale(1.05);
+}
+
+/* Form Contact */
+.contact-form {
+    max-width: 500px;
+    margin: auto;
+    padding: 25px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form fieldset {
+    border: 2px solid #ff7b7b;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.contact-form legend {
+    font-weight: bold;
+    color: #ff5252;
+    font-size: 18px;
+}
+
+.contact-form label {
+    font-weight: bold;
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+/* Penyesuaian Radio Button dan Checkbox */
+.contact-form .radio-group, 
+.contact-form .checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.contact-form .radio-group label, 
+.contact-form .checkbox-group label {
+    margin: 0;
+}
+
+.contact-form .radio-group input,
+.contact-form .checkbox-group input {
+    margin-right: 5px;
+    width: auto;
+}
+
+.contact-form .radio-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Tombol Kirim */
+.contact-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff7b7b;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #ff5252;
+    transform: scale(1.05);
+}
+
+/* Style untuk Footer */
+.container-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #ff6b6b;
+    color: white;
+    border-radius: 0 0 12px 12px;
+    margin-top: 40px;
+    text-align: center;
+}
