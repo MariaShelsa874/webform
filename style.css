@@ -105,10 +105,13 @@ body {
 
 /* Footer */
 .container-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 20px;
     background-color: #ff6b6b;
     color: white;
     border-radius: 0 0 12px 12px;
     margin-top: 40px;
-    font-size: 14px;
+    text-align: center;
 }
